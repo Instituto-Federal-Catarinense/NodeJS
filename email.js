@@ -1,19 +1,18 @@
-
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'youremail@gmail.com',
-    pass: 'yourpassword'
+    user: 'bbasgvd123@gmail.com',
+    pass: 'nacu lgtv nqof audi'
   }
 });
 
 var mailOptions = {
-  from: 'youremail@gmail.com',
-  to: 'myfriend@yahoo.com',
-  subject: 'Sending Email using Node.js',
-  text: 'That was easy!'
+  from: 'bbasgvd123@gmail.com',
+  to: 'dianadenezrosso02@gmail.com',
+  subject: 'PODE ABRIR',
+  text: 'Nunca ganhou de mim no xadraz'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
@@ -22,17 +21,4 @@ transporter.sendMail(mailOptions, function(error, info){
   } else {
     console.log('Email sent: ' + info.response);
   }
-}); 
-
-var mailOptions = {
-    from: 'youremail@gmail.com',
-    to: 'myfriend@yahoo.com, myotherfriend@yahoo.com',
-    subject: 'Sending Email using Node.js',
-    text: 'That was easy!'
-  } 
-  var mailOptions = {
-    from: 'youremail@gmail.com',
-    to: 'myfriend@yahoo.com',
-    subject: 'Sending Email using Node.js',
-    html: '<h1>Welcome</h1><p>That was easy!</p>'
-  } 
+});
