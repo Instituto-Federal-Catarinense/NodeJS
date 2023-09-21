@@ -3,16 +3,16 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'email_ficticio',
-    pass: 'senha_ficticia'
+    user: 'mrzbldefreitas@gmail.com',
+    pass: 'tbsy afms rral gevp'
   }
 });
 
 var mailOptions = {
-  from: 'email_ficticio',
-  to: 'email_ficticio2',
-  subject: 'Sending Email using Node.js',
-  text: 'That was easy!'
+  from: 'mrzbldefreitas@gmail.com',
+  to: 'joedio.borges@ifc.edu.br',
+  subject: 'Sending Email using Node.js. Maria Izabel de Freitas - 2A',
+  text: 'tbsy afms rral gevp'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
