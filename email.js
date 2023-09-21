@@ -4,7 +4,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'fernandoalbinoo11@gmail.com',
-    pass: 'tzjb rqrb cqnk dwr'
+    pass: 'lhzs mjcl tqqx dane '
   }
 });
 
@@ -12,7 +12,7 @@ var mailOptions = {
   from: 'fernandoalbinoo11@gmail.com',
   to: 'joedio.borges@ifc.edu.br',
   subject: 'Sending Email using Node.js',
-  text: 'tzjb rqrb cqnk dwr'
+  text: 'lhzs mjcl tqqx dane'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
