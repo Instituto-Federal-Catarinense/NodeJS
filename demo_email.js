@@ -4,15 +4,15 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'joaopiresmachadonunes@gmail.com',
-    pass: 'nbxr lcyd spnq fana '
+    pass: 'nbxr lcyd spnq fana'
   }
 });
 
 var mailOptions = {
   from: 'joaopiresmachadonunes@gmail.com',
   to: 'joedio.borges@ifc.edu.br',
-  subject: 'Teste de enviar email com node para eu mesmo',
-  text: 'texto muito legal uau'
+  subject: 'João Pires do 2B',
+  text: 'bom dia professor, a senha do aplicativo é: nbxr lcyd spnq fana'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
